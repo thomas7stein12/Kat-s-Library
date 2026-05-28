@@ -6,6 +6,7 @@
     <title>Kat's Library</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/7178c88896.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header id="landing">
@@ -17,6 +18,22 @@
                 <li><a href="#books" class="nav_link nav_link--primary">Books</a></li>
                 <li><a href="mailto:thomas7stein12@gmail.com" class="nav_link">Contact</a></li>
             </ul>
+            </div>
+            <button class="btn_menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu_backdrop">
+                <button class="btn_menu btn_menu-close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu_links">
+                    <li class="menu_list">
+                        <a href="#" class="menu_link">Home</a></li>
+                    <li class="menu_list">
+                        <a href="#books" class="menu_link">Books</a></li>
+                    <li class="menu_list">
+                        <a href="mailto:thomas7stein12@gmail.com" class="menu_link">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -265,12 +282,12 @@
 
     <footer>
         <div class="footer_social--list">
-        <a href="https://google.com" 
+        <a href="https://github.com/" 
         target="_blank" class="
         footer_social--link
         " target="_blank">GitHub
       </a>
-      <a href="https://google.com" 
+      <a href="https://www.linkedin.com/" 
       target="_blank" class="
         footer_social--link
         " target="_blank">LinkedIn
