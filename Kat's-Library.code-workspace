@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Kat's-Library",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kat's-Library"
+	}
+}
